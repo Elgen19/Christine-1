@@ -1,4 +1,4 @@
-package com.dalemncy.demo.dialogs
+package com.pepito.demo.dialogs
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

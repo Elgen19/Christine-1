@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.dalemncy.demo.dialogs'
+    namespace 'com.pepito.demo.dialogs'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.dalemncy.demo.dialogs"
+        applicationId "com.pepito.demo.dialogs"
         minSdk 24
         targetSdk 34
         versionCode 1

@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="18dp">
 
     <TextView
-        android:text="@string/this_is_a_custom_dialog"
-        android:textSize="20sp"
+        android:text="@string/header_label"
+        android:textSize="22sp"
         android:textStyle="bold"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/title"
-        android:hint="@string/title"
+        android:id="@+id/nameEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:hint="@string/name_hint"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/save"
-        android:text="@string/save"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/submit_label"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 </LinearLayout>

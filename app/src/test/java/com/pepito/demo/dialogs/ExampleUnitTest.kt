@@ -1,4 +1,4 @@
-package com.dalemncy.demo.dialogs
+package com.pepito.demo.dialogs
 
 import org.junit.Test
 

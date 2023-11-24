@@ -13,33 +13,27 @@
 
         <Button
             android:id="@+id/simple_content_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
             android:text="@string/simple_content_dialog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/yes_or_no_dialog"
-            android:text="@string/yes_or_no_dialog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:id="@+id/date_picker_dialog"
-            android:text="@string/date_picker_dialog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <Button
             android:id="@+id/time_picker_dialog"
-            android:text="@string/time_picker_dialog"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/time_picker_dialog"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
         <Button
             android:id="@+id/custom_dialog"
-            android:text="@string/custom_dialog"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/custom_dialog"
+            tools:ignore="TextContrastCheck,VisualLintButtonSize" />
 
     </LinearLayout>
 
